@@ -7,10 +7,11 @@ guess = None
 print("Welcome to my personal 'Guess The Number' Game.")
 
 
-ran_num = random.randint(1,10)
+ran_num = random.randint(1,10) #change values as you wich 
 print ("A random number has randomly been generated ...")
 
-for i in range(1):
+
+for i in range(1): #change the value as you wich 
     print("Guess the number ! Enter a value")
     guess = int(input())
 
